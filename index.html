@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box1">
+            <h1>Songistan</h1>
+        </div>
+
+
+        <div class="box2">
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/Aaj sajeya.jfif" alt="Aaj Sajeya Thubnil">
+                </div>
+                <h2>Aaj Sajeya-</h2>
+                <button class="btn" onclick="playAudio(0)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/chand baaliya.jfif" alt="Chand Baaliya thumbnil">
+                </div>
+                <h2>Chand Baaliya-</h2>
+                <button class="btn" onclick="playAudio(1)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/Ayat.jfif" alt="Ayat Thumbnil">
+                </div>
+                <h2>Ayat-Arijit Singh</h2>
+                <button class="btn" onclick="playAudio(2)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/chitta.jpg" alt="Chitta Thumbnil">
+                </div>
+                <h2>Chitta-</h2>
+                <button class="btn" onclick="playAudio(3)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/JUG-JUG-JEEVE-LYRICS-Shiddat.jpg" alt="Jug Jug Jeeve Thumbnil">
+                </div>
+                <h2>Jug Jug Jeeve-</h2>
+                <button class="btn" onclick="playAudio(4)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/Khushi-Jab-Bhi-Teri-Lyrics-1024x576.jpg" alt="Khushi Jab Bhi Thumbnil">
+                </div>
+                <h2>Khushi Jab Bhi Teri-Jubir N.</h2>
+                <button class="btn" onclick="playAudio(5)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/love me like u do.jfif" alt="Love Me Like Thumbnil">
+                </div>
+                <h2>Love me Like-Ellie Goulging</h2>
+                <button class="btn" onclick="playAudio(6)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/maiya menu.jfif" alt="Miya Menu Thumbnil">
+                </div>
+                <h2>Maiya Menu-</h2>
+                <button class="btn" onclick="playAudio(7)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/mast nazro.jpg" alt="Mast Nazro Thumbnil">
+                </div>
+                <h2>Mast Nazro - Jubir N.</h2>
+                <button class="btn" onclick="playAudio(8)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/Rait Zara si.jpg" alt="Rait Zara Si Thumbnil">
+                </div>
+                <h2>Rait Zara Si-</h2>
+                <button class="btn" onclick="playAudio(9)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/shiddat-title-track-manan-bhardwaj-392x272.jpg"
+                        alt="Shiddat Title Track Thumbnil">
+                </div>
+                <h2>Shiddat Title-Manan Bhardwaj</h2>
+                <button class="btn" onclick="playAudio(10)">Play</button>
+            </div>
+
+            <div class="card">
+                <div class="img_thumbnill">
+                    <img src="./Thumbnil/ve tu.jpg" alt="Ve Tu Thumbnil">
+                </div>
+                <h2>Ve Tu-</h2>
+                <button class="btn" onclick="playAudio(11)">Play</button>
+            </div>
+        </div>
+
+
+        <div class="box3">
+            <div class="card_thumbnill">
+                <div class="card_img">
+                    <img id="thumbnaill" src="./Thumbnil/shiddat-title-track-manan-bhardwaj-392x272.jpg" alt="">
+                </div>
+                <audio id="audio_player"
+                    src="./Audio/Shiddat_Title_Track_(Full_Video)_Sunny_Kaushal,Radhika_Madan,_Mohit_Raina,_Diana_P__Manan_Bhardwaj(256k).mp3"
+                    controls></audio>
+                <h2 id="audio_player_title">Shiddat Title-</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
